@@ -1,0 +1,18 @@
+*{color: black;}
+h1{ color: red;
+   text-align: center;}
+#may {color:pink} 
+#one{color: brown;
+  text-transform: capitalize;
+line-height: 30px;}  
+.one{color:yellow;
+      text-indent: 50px;}
+p a{color: blue;}
+#child>a{color: brown;} 
+/*Pseudo Selector*/
+a:link {text-decoration: none;
+      color: blue;}  
+a:hover{text-decoration: underline;
+      color: red;}   
+ a:active{color: green;} 
+ a:visited{color: brown;}         

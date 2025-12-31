@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Form Lesson</h1>
+    <!-- text align -->
+     <form action="Sumbit.html" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email">
+        </div><br>
+        <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter Your age" step="2" min="18"></div><br>
+        <div> 
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" placeholder="Enter the Date" >   
+        </div><br>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your password" >
+        </div><br>
+        <div>
+            <label for="">Gender</label>
+            <input  type="radio" id="male" name="gender" value="male"><label for="Male">Male</label>
+            <input  type="radio" id="female" name="gender" value="female"><label for="Feale">Female</label>
+        </div>
+        <button type="submit">Submit</button>
+        <br>
+            <label for="">Hobbie</label>
+            <div>
+                <input type="checkbox" id="Reading" name="Hobbie" value="Reading"><label for="Reading">Reading</label>
+                <input type="checkbox" id="Watching" name="Hobbie" value="Watching"><label for="Watching">Watching</label>
+                <input type="checkbox" id="Listening" name="Hobbie" value="Listening"><label for="Listening">Listening</label>
+            </div>
+            <br>
+            <label for="education">Education</label>
+            <br><select name="Education" id="education">
+            <option value="First Year">First Year</option>
+            <option value="Secondt Year">Second Year</option>
+            <option value="Third Year">Third Year</option>
+            </select><br>
+            <div>
+                <label for="address">Address</label>
+                <textarea  name="address"  id="address"></textarea>
+            </div><br>
+            <div>
+                <label for="image">image</label>
+                <input type="file" name="image" id="image">
+            </div>
+            <label for="color">color</label>
+             <input type="color" name="color" id="color">
+             <br>
+             <fieldset>
+                <legend>Personal Information</legend>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat assumenda nihil perspiciatis sint repellendus quibusdam aperiam asperiores non possimus. Exercitationem corrupti praesentium velit fuga unde reprehenderit ratione sunt optio
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellat assumenda nihil perspiciatis sint repellendus quibusdam aperiam asperiores non possimus. Exercitationem corrupti praesentium velit fuga unde reprehenderit ratione sunt optio.</p>
+             </fieldset>
+                 <marquee behavior="" direction="">Hello world</marquee>
+
+     </form>
+</body>
+</html>
