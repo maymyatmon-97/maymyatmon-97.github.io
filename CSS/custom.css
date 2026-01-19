@@ -9,10 +9,12 @@ line-height: 30px;}
       text-indent: 50px;}
 p a{color: blue;}
 #child>a{color: brown;} 
-/*Pseudo Selector*/
+/*Pseudo Selector */
 a:link {text-decoration: none;
       color: blue;}  
 a:hover{text-decoration: underline;
       color: red;}   
  a:active{color: green;} 
- a:visited{color: brown;}         
+ a:visited{color: brown;} 
+ /* Target */
+ p:target{color: blue;}     
