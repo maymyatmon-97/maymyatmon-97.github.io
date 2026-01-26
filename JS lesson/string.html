@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String Lesson</h1>
+    <script>
+        let firstname="Developer"
+        let lastname="May Myat Mon"
+        console. log (firstname.length);
+        let fullname= firstname+''+lastname
+        // let fullname=firstname.concat('',lastname);
+        console.log (fullname);
+        console.log ('My name is'+ fullname);
+        document.write ('<h1>'+ firstname+'</h1>'+'<h2>'+lastname+'</h2>');
+        document.write(`<h1> ${firstname} </h1> <h2> ${lastname}</h2?`);
+        document.write('<h3>'+'My name is'+fullname+'.I am 19 year\'s.my nick name is' + 'May Gyi'+ '</h3>');   
+        
+        console.log(firstname.toUpperCase());
+        console.log(firstname.toLowerCase());
+        console.log (firstname.substr(1,3));
+
+        let job= '     web    developer .';
+        console.log (job.trim());
+
+        let ser='My name is May Myat Mon';
+        console.log(ser.search('is'));
+
+        let rep='He are the best '
+        console.log (rep.replace('are','is'));
+
+        let num='3,500,000';
+        console.log (num.replace(/\,/g,''));
+
+        console.log('I\'m May Myat Mon');
+        console.log ("I'm May");
+        console.log ("i am May, 5'2\"");
+    </script>
+</body>
+</html>
